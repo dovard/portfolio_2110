@@ -1,9 +1,53 @@
 * {
   font-family: 'Ubuntu', sans-serif;
 }
+:root {
+  /* Color */
+  --color--white: white;
+  --color--light--white: #eeeeee;
+  --color--dark--white: #bdbdbd;
+  --color--pink: #fe918d;
+  --color--dark--pink: #ff6863;
+  --color--black: black;
+  --color--dark--grey: #4d4d4d;
+  --color--grey: #616161;
+  --color--light--grey: #7c7979;
+  --color--blue: #73aace;
+  --color--yellow: #fff7d1;
+  --color--orange: #feb546;
+  --color--skyblue: skyblue
+
+
+  /*Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /*Font weight*/
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /*Size*/
+
+
+}
+
+/*Universal tags*/
+* {
+  box-sizing: border-box;
+  
+}
 
 .container {
-	display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-	
+  position : absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+  transform: translate(-50%, -50%)
+
 }
