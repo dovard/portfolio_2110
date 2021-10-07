@@ -1,6 +1,4 @@
-* {
-  font-family: 'Ubuntu', sans-serif;
-}
+
 :root {
   /* Color */
   --color--white: white;
@@ -15,10 +13,12 @@
   --color--blue: #73aace;
   --color--yellow: #fff7d1;
   --color--orange: #feb546;
-  --color--skyblue: skyblue
+  --color--skyblue: skyblue;
+
 
 
   /*Font size */
+
   --font-large: 48px;
   --font-medium: 28px;
   --font-regular: 18px;
@@ -26,7 +26,7 @@
   --font-micro: 14px;
 
   /*Font weight*/
-  --weight-bold: 700;
+  --weight-bold: 900;
   --weight-semi-bold: 600;
   --weight-regular: 400;
 
@@ -38,16 +38,38 @@
 /*Universal tags*/
 * {
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
   
 }
 
-.container {
-  position : absolute;
-  top: 50%;
-  left: 50%;
-  width: 200px;
-  height: 200px;
-  background-color: violet;
-  transform: translate(-50%, -50%)
+/*Typography*/
 
+h1  {
+      font-size: var(--font-large);
+      font-weight: var(--weight-bold);
+      color: var(--color--pink);
+      margin: 16px 0px;
 }
+
+h2  {
+      font-size: var(--font-medium);
+      font-weight: var(--weight-semi-bold);
+      color: var(--color-black);
+      margin: 16px 0px;
+}
+
+h3  {
+      font-size: var(--font-regular);
+      font-weight: var(--weight-regular);
+      color: var(--color-black);
+      margin: 8px 0px;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0px;
+}
+
+
