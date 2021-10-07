@@ -62,12 +62,24 @@ ul{
 
 }
 
+li  {
+  list-style: none;
+
+}
+
+button{
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+   
+}
+
 /*Typography*/
 
 h1  {
       font-size: var(--font-large);
       font-weight: var(--weight-bold);
-      color: var(--color--pink);
+      color: var(--color--black);
       margin: 16px 0px;
 }
 
@@ -128,5 +140,47 @@ p {
 
 .navbar__menu__item:hover {
   background-color: var(--color--blue);
+
+}
+
+
+/*Home*/
+
+#home {
+  background: url('imgs/Back.png') center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 30%;
+  border: 3px solid var(--color--blue)
+}
+
+.home__title,
+.home__description  {
+  color: var(--color--blue);
+}
+
+.home__contact  {
+  color: green;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding:8px 12px;
+  border:2px solid --color--white;
+
+}
+
+
+/*Section common */
+
+.section {
+  padding: 50px;
+  text-align: center;
+
 
 }
