@@ -71,7 +71,6 @@ button{
   background-color: transparent;
   cursor: pointer;
   border: none;
-   
 }
 
 /*Typography*/
@@ -172,7 +171,6 @@ p {
   margin: 24px;
   padding:8px 12px;
   border:2px solid --color--white;
-
 }
 
 
@@ -181,6 +179,6 @@ p {
 .section {
   padding: 50px;
   text-align: center;
-
+  max-width:1200px ;
 
 }
