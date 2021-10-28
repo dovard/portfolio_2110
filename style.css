@@ -117,7 +117,7 @@ p {
   width: 100%;
   height: 68px;
   transition: all var(--animaion-duration) ease-in-out;
-
+  z-index: 1;
 }
 
 #navbar.navbar--dark {
@@ -487,7 +487,7 @@ p {
 
 /*Contact*/
 #contact {
-  background-color: rgb(138, 175, 245);
+  background-color: rgb(168, 170, 173);
 }
 
 .contact__title,
